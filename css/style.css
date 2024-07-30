@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgba(227, 227, 227, 0.814);
+    --text-color: gray;
+    --background-color: black;
+    --white-color: white;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contenido {
+    min-height: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.encabezado {
+    position: fixed;
+    display:flex;
+    margin: 0 0 0 3.8rem;
+    margin-top: 4rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: end;
+    gap: 8rem;
+    height: 89%;
+    margin: 4rem 4rem 4rem 4rem;
+}
+
+.contenedor_contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+.contenedor_contenido_input {
+    width: 100%;
+    height: 4.8rem;
+    margin-top: 8rem;
+}
+
+.entrada {
+    width: 100%;
+    color: var(--text-color);
+    font-family: "inter";
+    font-size: 3.2rem;
+    font-weight: 300;
+    border: none;
+    resize: none;
+    overflow: hidden;
+}
+
+.entrada::placeholder {
+    color: var(--text-color);
+}
+
+.contenedor_contenido_neto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 100%;
+    margin-bottom: 7.2rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3.2rem;
+}
+
+.encriptar,
+.desencriptar,
+.copiar {
+    width: 32.8rem;
+    height: 6.7rem;
+    border-radius: 2.4rem;
+    font-family: "inter";
+    font-size: 1.6rem;
+}
+
+.encriptar {
+    background-color: var(--background-color);
+    color: var(--white-color);
+}
+
+.desencriptar {
+    background-color: var(--white-color);
+}
+
+.copiar {
+    background-color: var(--primary-color);
+    margin: 3.2rem;
+}
+
+.contenedor_aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+    height: 100%; 
+    border-radius: 4.8rem;
+    background-color: var(--background-color);
+    gap: 4rem;
+    text-align: center;
+}
+
+.contenedor_aside_img {
+    width: 100%;
+}
+
+.aside_contenido {
+    width: 90%;
+}
+
+.contenedor_aside_elementos,
+.contenedor_aside_resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_aside_resultado {
+    justify-content: space-between;
+    width: 90%;
+    min-height: 90%;
+}
+
+.texto_resultado {
+    overflow: hidden;
+    resize: none;
+    font-size: 1.6rem;
+    font-family: "inter";
+    background-color: var(--background-color);
+    color: var(--white-color);
+    width: 90%;
+    border: none;
+    margin: 3.2rem 3.2rem 0 3.2rem;
+}
+
+.aside_contenido_texto {
+    gap: 0.8rem;
+    width: 3.36rem;
+}
+
+.aside_titulo,
+.aside_texto {
+    color: var(--primary-color);
+    font-family: "inter";
+}
+
+.aside_titulo {
+    font-size: 3.2rem;
+}
+
+.aside_texto {
+    font-size: 1.6rem;
+}
+
+.texto_alerta {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "inter";
+    height: 1.8rem;
+}
+
+.texto_alerta img {
+    margin-right: 1%;
+}
+
+@media (max-width: 1024px) {
+    .contenedor {
+        gap: 4rem;
+    }
+    .contenedor_contenido {
+        padding: 0 0 0 13.2rem;
+        width: 60%;
+    }
+    .contenedor_aside {
+        width: 40%;
+    }
+    .copiar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .encabezado {
+        margin: 7.342rem 0 0 -0.4rem;
+        position: relative;
+    }
+    .contenedor {
+        flex-direction: column;
+        justify-content: end;
+        margin-top: 11.8rem;
+        margin-bottom: 0;
+        gap: 6.4rem;
+        height: 87.55%;
+    }
+    .contenedor_contenido {
+        width: 100%;
+        padding: 0;
+        gap: 54.8rem;
+    }
+    .contenedor_aside {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .contenedor_contenido_input {
+        margin-top: 0;
+    }
+    .contenedor_contenido_input textarea {
+        height: 4.8rem;
+    }
+    .contenedor_contenido_neto {
+        margin: 0;
+    }
+    .contenedor_aside_img {
+        display: none;
+    }
+    .copiar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado {
+        margin: 2.4rem 0 0 -2.4rem;
+    }
+    .contenedor {
+        justify-content: end;
+        margin: 5.6rem 2rem 2rem 2rem;
+    }
+    .contenedor_contenido{
+        gap: 25.1rem;
+    }
+    .botones {
+        flex-direction: column;
+    }
+    .encriptar,
+    .desencriptar,
+    .copiar {
+    width: 100%;
+    height: 6.7rem;
+    }
+    .contenedor_aside {
+    padding: 0 3.2rem 0 3.2rem;
+    height: 100%;
+    }
+}
+
+@media (max-height: 530px) {
+    .contenedor_aside_img {
+        display: none;
+    }
+}
