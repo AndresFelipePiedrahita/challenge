@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="">
-      <img src="![honguito](https://github.com/user-attachments/assets/45f2281f-ac2b-4d62-af04-0a5c5d00ca3c)" alt="Cripto-Funji">
+      <img src="<blockquote class="imgur-embed-pub" lang="en" data-id="a/V6oWind"  ><a href="//imgur.com/a/V6oWind">Honguito</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>" alt="Cripto-Funji">
     </a>
   </h1>
 </div>
