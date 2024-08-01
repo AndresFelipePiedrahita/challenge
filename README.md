@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="">
-      <blockquote class="imgur-embed-pub" lang="en" data-id="a/V6oWind"  ><a href="//imgur.com/a/V6oWind">Honguito</a></blockquote>
+      <img src="https://imgur.com/6Cidfpp" alt="Honguito">
     </a>
   </h1>
 </div>
