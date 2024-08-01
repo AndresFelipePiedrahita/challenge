@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/version-1.0-green" alt="version">
     <img src="https://img.shields.io/badge/status-finished-blue" alt="status">
     <img src="https://img.shields.io/twitter/follow/andres_fpm" alt="X">
+    ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/andres_fpm)
   </h1>
 </div>
 
