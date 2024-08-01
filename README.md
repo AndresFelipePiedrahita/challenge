@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/hola-criaturitas-orange" alt="saludo">
     <img src="https://img.shields.io/badge/version-1.0-green" alt="version">
     <img src="https://img.shields.io/badge/status-finished-blue" alt="status">
-    <a href="https://x.com/intent/follow?screen_name=andres_fpm">
+    <a href="https://x.com/intent/follow?screen_name=andres_fpm" target="_blank">
     <img src="https://img.shields.io/twitter/follow/andres_fpm" alt="X"></a>
   </h1>
 </div>
