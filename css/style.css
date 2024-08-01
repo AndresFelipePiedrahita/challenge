@@ -96,8 +96,24 @@ body {
     width: 32.8rem;
     height: 6.7rem;
     border-radius: 2.4rem;
+    border: solid var(--background-color);
     font-family: "inter";
     font-size: 1.6rem;
+}
+
+.encriptar:hover {
+    background-color: var(--white-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+.desencriptar:hover {
+    background-color: var(--white-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+.copiar:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
 }
 
 .encriptar {
@@ -106,11 +122,12 @@ body {
 }
 
 .desencriptar {
-    background-color: var(--white-color);
+    background-color: var(--background-color);
+    color: var(--white-color);
 }
 
 .copiar {
-    background-color: var(--primary-color);
+    background-color: var(--white-color);
     margin: 3.2rem;
 }
 

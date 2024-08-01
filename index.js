@@ -27,12 +27,12 @@ var contenidoNuevo = creaContenido();
 
 function encriptarTexto() {
     var miAside = document.getElementById('miAside');
-    miAside.innerHTML = ''; // Limpia el contenido del aside
-    miAside.appendChild(contenidoNuevo); // Agrega el nuevo contenido
+    miAside.innerHTML = ''; 
+    miAside.appendChild(contenidoNuevo); 
 
     var texto = document.getElementById("texto").value;
 
-    // Mapa de encriptación
+    
     var mapaEncriptacion = {
         'a': 'ai',
         'e': 'enter',
@@ -41,24 +41,24 @@ function encriptarTexto() {
         'u': 'ufat'
     };
 
-    // Realiza las sustituciones
+    
     var textoEncriptado = texto.split('').map(function(char) {
         return mapaEncriptacion[char] || char;
     }).join('');
 
     var textareaResultado = contenidoNuevo.querySelector('.texto_resultado');
-    textareaResultado.value = textoEncriptado; // Establece el texto encriptado en el textarea
-    autoSize.call(textareaResultado); // Ajusta la altura después de establecer el texto
+    textareaResultado.value = textoEncriptado; 
+    autoSize.call(textareaResultado); 
 }
 
 function desencriptarTexto() {
     var miAside = document.getElementById('miAside');
-    miAside.innerHTML = ''; // Limpia el contenido del aside
-    miAside.appendChild(contenidoNuevo); // Agrega el nuevo contenido
+    miAside.innerHTML = ''; 
+    miAside.appendChild(contenidoNuevo); 
 
     var texto = document.getElementById("texto").value;
 
-    // Orden inverso de desencriptación
+
     var mapaDesencriptacion = {
         'ai': 'a',
         'enter': 'e',
@@ -67,7 +67,7 @@ function desencriptarTexto() {
         'ufat': 'u'
     };
 
-    // Realiza las sustituciones
+
     var textoDesencriptado = texto;
     for (var key in mapaDesencriptacion) {
         var regex = new RegExp(key, 'g');
@@ -75,8 +75,8 @@ function desencriptarTexto() {
     }
 
     var textareaResultado = contenidoNuevo.querySelector('.texto_resultado');
-    textareaResultado.value = textoDesencriptado; // Establece el texto desencriptado en el textarea
-    autoSize.call(textareaResultado); // Ajusta la altura después de establecer el texto
+    textareaResultado.value = textoDesencriptado; 
+    autoSize.call(textareaResultado); 
 }
 
 function copiarTexto() {
