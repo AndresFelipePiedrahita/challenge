@@ -6,7 +6,7 @@
       <img src="https://github.com/AndresFelipePiedrahita/challenge/blob/main/assets/honguito.png" alt="Honguito" width="200px">
     </a>
   </h1>
-  https://img.shields.io/github/license/AndresFelipePiedrahita/challenge
+  <img src="https://img.shields.io/github/license/AndresFelipePiedrahita/challenge" alt="badge">
 
 </div>
 
