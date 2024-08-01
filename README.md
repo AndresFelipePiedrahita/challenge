@@ -11,7 +11,7 @@
   </h1>
 </div>
 
-<p>Esta es una aplicacion web que funciona como un encriptador de texto</p>
+<p>Esta es una aplicacion web que funciona como un encriptador y desencriptador de texto</p>
 
 <h2>Índice</h2>
 
