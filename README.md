@@ -12,7 +12,7 @@
 </div>
 
 ## introduccion
-<p>Esta es una aplicacion web que funciona como un encriptador y desencriptador de texto</p>
+Esta es una aplicacion web que funciona como un encriptador y desencriptador de texto
 
 <h2>Índice</h2>
 
