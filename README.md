@@ -16,19 +16,19 @@ Esta es una aplicacion web que funciona como un encriptador y desencriptador de 
 
 <h2>Índice</h2>
 
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+* [Características de la aplicación y demostración](#Características)
 
-* [Acceso al proyecto](#acceso-proyecto)
+* [Acceso al proyecto](#acceso)
 
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Tecnologías utilizadas](#tecnologías)
 
 * [Desarrolladores del Proyecto](#desarrolladores)
 
 * [Conclusión](#conclusión)
 
-<h3 id="Características-de-la-aplicación-y-demostración">Características de la aplicación y demostración</h3>
-<h3 id="acceso-proyecto">Acceso al proyecto</h3>
-<h3 id="tecnologías-utilizadas">Tecnologías utilizadas</h3>
+<h3 id="Características">Características de la aplicación y demostración</h3>
+<h3 id="acceso">Acceso al proyecto</h3>
+<h3 id="tecnologías">Tecnologías utilizadas</h3>
 <h3 id="desarrolladores">Desarrolladores del Proyecto</h3>
 <h3 id="conclusión">conclusión</h3>
   
