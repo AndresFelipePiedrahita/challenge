@@ -25,7 +25,7 @@
 
 * [Conclusión](#conclusión)
 
-#Características-de-la-aplicación-y-demostración
+<h3 id="Características-de-la-aplicación-y-demostración">Características-de-la-aplicación-y-demostración</h3>
   
 
 
