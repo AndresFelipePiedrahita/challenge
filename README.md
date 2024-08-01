@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="">
-      <img src="" alt="Cripto-Funji">
+      <img src="https://imgur.com/6Cidfpp" alt="Cripto-Funji">
     </a>
   </h1>
 </div>
