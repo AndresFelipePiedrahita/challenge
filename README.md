@@ -21,11 +21,15 @@
 
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 
-* [Desarrolladores del Proyecto](#personas-desarrolladores)
+* [Desarrolladores del Proyecto](#desarrolladores)
 
 * [Conclusión](#conclusión)
 
-<h3 id="Características-de-la-aplicación-y-demostración">Características-de-la-aplicación-y-demostración</h3>
+<h3 id="Características-de-la-aplicación-y-demostración">Características de la aplicación y demostración</h3>
+<h3 id="acceso-proyecto">Acceso al proyecto</h3>
+<h3 id="tecnologías-utilizadas">Tecnologías utilizadas</h3>
+<h3 id="desarrolladores">Desarrolladores del Proyecto</h3>
+<h3 id="conclusión">conclusión</h3>
   
 
 
