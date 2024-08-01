@@ -13,17 +13,7 @@
 
 <p>Esta es una aplicacion web que funciona como un encriptador de texto</p>
 
-##Índice
-
-* [Título e imagen de portada](#Título-e-imagen-de-portada)
-
-* [Insignias](#insignias)
-
-* [Índice](#índice)
-
-* [Descripción del proyecto](#descripción-del-proyecto)
-
-* [Estado del proyecto](#Estado-del-proyecto)
+<h2>Índice</h2>
 
 * [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
@@ -31,12 +21,11 @@
 
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 
-* [Personas Contribuyentes](#personas-contribuyentes)
-
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
+* [Desarrolladores del Proyecto](#personas-desarrolladores)
 
 * [Conclusión](#conclusión)
+
+#Características-de-la-aplicación-y-demostración
+  
 
 
