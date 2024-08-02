@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">
-    Encripta-Funji
+    Encripta-Fungi
     <br />
     <a href="">
       <img src="https://github.com/AndresFelipePiedrahita/challenge/blob/main/assets/honguito.png" alt="Honguito" width="200px">
@@ -14,10 +14,10 @@
   </h1>
 </div>
 
-## introduccion
-Esta es una aplicacion web que funciona como un encriptador y desencriptador de texto
+## introducción
+alucinaras con esta increíble aplicación web!! funciona como un encriptador y desencriptador de texto, con la cual podrás generar mensajes secretos 🤫 y descifrar mensajes ocultos 🔎
 
-<h2>Índice</h2>
+## Índice
 
 * [Características de la aplicación y demostración](#Características)
 
