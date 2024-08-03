@@ -31,8 +31,7 @@ alucinaras con esta increíble aplicación web!! funciona como un encriptador y 
 
 <h3 id="Características">Características de la aplicación y demostración</h3>
 esta aplicación web cuenta con las siguientes características:
-
-
+<p></p>
 
 - **Encriptador de texto**: permite a los usuarios ingresar un texto y encriptarlo utilizando el encriptado secreto solicitado por alura y oracle.
 - **Desencriptador de texto**: permite a los usuarios ingresar un texto encriptado y descifrar el mensaje oculto que se genero mediante la encriptación solicitada por alura y oracle.
