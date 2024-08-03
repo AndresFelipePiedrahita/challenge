@@ -31,6 +31,7 @@ alucinaras con esta increíble aplicación web!! funciona como un encriptador y 
 
 <h3 id="Características">Características de la aplicación y demostración</h3>
 esta aplicación web cuenta con las siguientes características:
+<br/>
 
 - **Encriptador de texto**: permite a los usuarios ingresar un texto y encriptarlo utilizando el encriptado secreto solicitado por alura y oracle.
 - **Desencriptador de texto**: permite a los usuarios ingresar un texto encriptado y descifrar el mensaje oculto que se genero mediante la encriptación solicitada por alura y oracle.
@@ -48,9 +49,7 @@ el proyecto se encuentra disponible en el siguiente enlace: [https://andresfelip
 - **Andres Felipe Piedrahita**: desarrollador principal del proyecto.
 
 <h3 id="conclusión">conclusión</h3>
-en conclusión, esta aplicación web es una herramienta muy útil para generar mensajes secretos y descifrar mensajes ocultos. 
-<br/>
-se espera que esta aplicación sea de gran ayuda para los usuarios.
+en conclusión, esta aplicación web es una herramienta muy útil para generar mensajes secretos y descifrar mensajes ocultos. se espera que esta aplicación sea de gran ayuda para los usuarios.
   
 
 
