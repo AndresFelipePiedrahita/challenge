@@ -21,6 +21,8 @@ alucinaras con esta increíble aplicación web!! funciona como un encriptador y 
 
 * [Características de la aplicación y demostración](#Características)
 
+* [Funciones](#funciones)
+
 * [Tecnologías utilizadas](#tecnologías)
 
 * [Acceso al proyecto](#acceso)
@@ -36,6 +38,14 @@ esta aplicación web cuenta con las siguientes características:
 - **Encriptador de texto**: permite a los usuarios ingresar un texto y encriptarlo utilizando el encriptado secreto solicitado por alura y oracle.
 - **Desencriptador de texto**: permite a los usuarios ingresar un texto encriptado y descifrar el mensaje oculto que se genero mediante la encriptación solicitada por alura y oracle.
 - **Generador de mensajes secretos**: permite a los usuarios generar mensajes secretos que pueden ser copiados y posteriormente, descifrarlos por medio de la misma aplicación web.
+
+<h3 id="funciones">Funciones</h3>
+
+
+```
+function createContent()
+```
+esta función crea un nuevo contenido en el aside de la landingpage, genera un contenedor div, que contiene un textarea donde se genera el resultado del texto a encriptar o desencriptar y un botón copiar que llama a la función copyText para valga la redundancia copiar el texto generado como resultado en el textarea. 
 
 <h3 id="tecnologías">Tecnologías utilizadas</h3>
 
