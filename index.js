@@ -1,39 +1,38 @@
-var contenidoOriginal = document.getElementById('miAside').innerHTML;
+var originalContent = document.getElementById('miAside').innerHTML;
 
 function autoSize() {
     this.style.height = '';
     this.style.height = this.scrollHeight + 'px';
 }
 
-function creaContenido() {
+function createContent() {
     var div = document.createElement("div");
     div.className = "contenedor_aside_resultado";
 
-    var textarea = document.createElement("textarea");
-    textarea.className = "texto_resultado";
-    textarea.oninput = autoSize;
-    div.appendChild(textarea);
+    var textArea = document.createElement("textarea");
+    textArea.className = "texto_resultado";
+    textArea.oninput = autoSize;
+    div.appendChild(textArea);
 
-    var botonCopiar = document.createElement("button");
-    botonCopiar.className = "copiar";
-    botonCopiar.textContent = "Copiar";
-    botonCopiar.onclick = copiarTexto;
-    div.appendChild(botonCopiar);
+    var copyButton = document.createElement("button");
+    copyButton.className = "copiar";
+    copyButton.textContent = "Copiar";
+    copyButton.onclick = copyText;
+    div.appendChild(copyButton);
 
     return div;
 }
 
-var contenidoNuevo = creaContenido();
+var newContent = createContent();
 
-function encriptarTexto() {
-    var miAside = document.getElementById('miAside');
-    miAside.innerHTML = ''; 
-    miAside.appendChild(contenidoNuevo); 
+function encryptText() {
+    var myAside = document.getElementById('miAside');
+    myAside.innerHTML = ''; 
+    myAside.appendChild(newContent); 
 
-    var texto = document.getElementById("texto").value;
+    var text = document.getElementById("texto").value;
 
-    
-    var mapaEncriptacion = {
+    var encryptionMap = {
         'a': 'ai',
         'e': 'enter',
         'i': 'imes',
@@ -41,25 +40,23 @@ function encriptarTexto() {
         'u': 'ufat'
     };
 
-    
-    var textoEncriptado = texto.split('').map(function(char) {
-        return mapaEncriptacion[char] || char;
+    var encryptedText = text.split('').map(function(char) {
+        return encryptionMap[char] || char;
     }).join('');
 
-    var textareaResultado = contenidoNuevo.querySelector('.texto_resultado');
-    textareaResultado.value = textoEncriptado; 
-    autoSize.call(textareaResultado); 
+    var resultTextArea = newContent.querySelector('.texto_resultado');
+    resultTextArea.value = encryptedText; 
+    autoSize.call(resultTextArea); 
 }
 
-function desencriptarTexto() {
-    var miAside = document.getElementById('miAside');
-    miAside.innerHTML = ''; 
-    miAside.appendChild(contenidoNuevo); 
+function decryptText() {
+    var myAside = document.getElementById('miAside');
+    myAside.innerHTML = ''; 
+    myAside.appendChild(newContent); 
 
-    var texto = document.getElementById("texto").value;
+    var text = document.getElementById("texto").value;
 
-
-    var mapaDesencriptacion = {
+    var decryptionMap = {
         'ai': 'a',
         'enter': 'e',
         'imes': 'i',
@@ -67,23 +64,21 @@ function desencriptarTexto() {
         'ufat': 'u'
     };
 
-
-    var textoDesencriptado = texto;
-    for (var key in mapaDesencriptacion) {
+    var decryptedText = text;
+    for (var key in decryptionMap) {
         var regex = new RegExp(key, 'g');
-        textoDesencriptado = textoDesencriptado.replace(regex, mapaDesencriptacion[key]);
+        decryptedText = decryptedText.replace(regex, decryptionMap[key]);
     }
 
-    var textareaResultado = contenidoNuevo.querySelector('.texto_resultado');
-    textareaResultado.value = textoDesencriptado; 
-    autoSize.call(textareaResultado); 
+    var resultTextArea = newContent.querySelector('.texto_resultado');
+    resultTextArea.value = decryptedText; 
+    autoSize.call(resultTextArea); 
 }
 
-function copiarTexto() {
-    var textareaResultado = contenidoNuevo.querySelector('.texto_resultado');
-    textareaResultado.select();
+function copyText() {
+    var resultTextArea = newContent.querySelector('.texto_resultado');
+    resultTextArea.select();
     document.execCommand("copy");
-    alert("Texto copiado: " + textareaResultado.value);
-    document.getElementById('miAside').innerHTML = contenidoOriginal;
+    alert("Texto copiado: " + resultTextArea.value);
+    document.getElementById('miAside').innerHTML = originalContent;
 }
-
