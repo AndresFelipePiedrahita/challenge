@@ -30,7 +30,8 @@ alucinaras con esta increíble aplicación web!! funciona como un encriptador y 
 * [Conclusión](#conclusión)
 
 <h3 id="Características">Características de la aplicación y demostración</h3>
-esta aplicación web cuenta con las siguientes características:<br/>
+esta aplicación web cuenta con las siguientes características:
+
 
 
 - **Encriptador de texto**: permite a los usuarios ingresar un texto y encriptarlo utilizando el encriptado secreto solicitado por alura y oracle.
