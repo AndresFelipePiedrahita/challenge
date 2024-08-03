@@ -42,7 +42,7 @@ esta aplicación web cuenta con las siguientes características:
 - **Frontend**: se utilizó html, css y js para el desarrollo de la aplicación web
 
 <h3 id="acceso">Acceso al proyecto</h3>
-el proyecto se encuentra disponible en el siguiente enlace: [https://andresfelipepied
+el proyecto se encuentra disponible en el siguiente enlace: [https://andresfelipepiedrahita.github.io/challenge/]
 
 <h3 id="desarrolladores">Desarrolladores del Proyecto</h3>
 
