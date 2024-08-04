@@ -1,7 +1,6 @@
 var originalContent = document.getElementById('miAside').innerHTML;
 
-/*esta función se solicita en la función que genera el textarea en la función createContent y se encarga de 
-ajustar sus dimensiones para que se ajusten a la longitud del texto ingresado.*/
+//esta función se encarga de ajustar sus dimensiones para que se ajusten a la longitud del texto ingresado.
 function autoSize() {
     this.style.height = '';
     this.style.height = this.scrollHeight + 'px';
