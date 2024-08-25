@@ -24,6 +24,7 @@ function createContent() {
     el textarea.*/
     var copyButton = document.createElement("button");
     copyButton.className = "copiar";
+    copyButton.id = "copiar";
     copyButton.textContent = "Copiar";
     copyButton.onclick = copyText;
     div.appendChild(copyButton);
@@ -92,9 +93,24 @@ function decryptText() {
 /*Esta función copia el valor de la clase texto_resultado al portapapeles y da un alert indicando cual fue 
 el texto copiado*/
 function copyText() {
+    // Seleccionar el área de texto con la clase 'texto_resultado'
     var resultTextArea = newContent.querySelector('.texto_resultado');
+    
+    // Seleccionar el contenido del área de texto
     resultTextArea.select();
+    
+    // Copiar el texto seleccionado al portapapeles
     document.execCommand("copy");
-    alert("Texto copiado: " + resultTextArea.value);
+    
+    // Mostrar la alerta de éxito inmediatamente después de copiar
+    Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "El código encriptado fue guardado",
+        showConfirmButton: false,
+        timer: 1500
+    });
+    
+    // Restaurar el contenido original del elemento con id 'miAside'
     document.getElementById('miAside').innerHTML = originalContent;
 }
