@@ -67,6 +67,7 @@ body {
     font-size: 3.2rem;
     font-weight: 300;
     border: none;
+    outline: none;
     resize: none;
     overflow: hidden;
 }
@@ -174,6 +175,7 @@ body {
     color: var(--white-color);
     width: 90%;
     border: none;
+    outline: none;
     margin: 3.2rem 3.2rem 0 3.2rem;
 }
 
@@ -225,6 +227,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        height: 100vh;
+    }
     .encabezado {
         margin: 7.342rem 0 0 -0.4rem;
         position: relative;
@@ -235,16 +240,17 @@ body {
         margin-top: 11.8rem;
         margin-bottom: 0;
         gap: 6.4rem;
-        height: 87.55%;
+        height: 75%;
     }
     .contenedor_contenido {
         width: 100%;
         padding: 0;
-        gap: 54.8rem;
+        height: 70%;
     }
     .contenedor_aside {
         width: 100%;
         margin-bottom: 4rem;
+        height: 30%;
     }
     .contenedor_contenido_input {
         margin-top: 0;
@@ -264,15 +270,21 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+        height: 100vh;
+    }
     .encabezado {
         margin: 2.4rem 0 0 -2.4rem;
     }
     .contenedor {
         justify-content: end;
         margin: 5.6rem 2rem 2rem 2rem;
+        height: 87.45%;
     }
     .contenedor_contenido{
-        gap: 25.1rem;
+        justify-content: space-between;
+        gap: 15rem;
+        height: 70%;
     }
     .botones {
         flex-direction: column;
@@ -285,7 +297,7 @@ body {
     }
     .contenedor_aside {
     padding: 0 3.2rem 0 3.2rem;
-    height: 100%;
+    height: 30%;
     }
 }
 
